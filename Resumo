@@ -1,0 +1,28 @@
+ES6 
+- EcmaScript 
+- Formula versões, regras e funcionalidades de JS
+
+Babel
+- Navegadores antigos podem entender as novas funcionalidades
+- Pega o código com novas funcionalidades do ES_6_7 etc e transpila para um formato reconhecível por versões desatualizadas de navegadores
+- configs
+  - Criar .babelrc
+  - "presets" : ["@babel/preset-env"} 
+  - Entende o ambiente (browser) em que se está trabalhando e converte as features do ES6_7_8 para o navegador 
+  - Criar index.html, main.js
+  - Setar no package.json "scripts" : {
+        "dev" : "babel ./main.js -o bundle.js"
+    }
+  - Para transpilar código convertido yarn dev 
+  - É gerado o arquivo bundle.js resultante da conversão do arquivo main.js que contém as novas features 
+
+WebPack
+- Empacotador de código para projetos web. Foca em módulos da aplicação e modulariza as partes do projeto. 
+- Live reload
+- Servidor de desenvolvimento
+
+
+
+-Classes 
+ - a
+
