@@ -28,4 +28,12 @@ WebPack
 
 -Webpack
 Serviço para permitir trabalhar com vários arquivos e pastas js
-Os códigos serão transpilados para um único arquivo bundle.js
+Os códigos serão transpilados para um único arquivo bundle.js que ficará
+disponível na web. 
+
+yarn add webpack webpack-cli -D
+
+Criar arquivo de configuração 
+
+webpack.config.js, no arquivo:
+ 
