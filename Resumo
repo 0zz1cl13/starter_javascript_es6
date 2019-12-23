@@ -26,3 +26,6 @@ WebPack
 -Classes 
  - A partir do ES6 
 
+-Webpack
+Serviço para permitir trabalhar com vários arquivos e pastas js
+Os códigos serão transpilados para um único arquivo bundle.js

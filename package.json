@@ -5,7 +5,7 @@
   "repository": "https://github.com/0zz1cl13/starter_javascript_es6.git",
   "author": "0zz1cl13 <seniorcl13@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.7.5",
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6"
